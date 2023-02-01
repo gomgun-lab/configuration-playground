@@ -1,0 +1,20 @@
+{
+  "name": "configuration-playground",
+  "version": "1.0.0",
+  "description": "config prac",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --cache --write .",
+    "lint": "eslint --cache .",
+    "prepare": "husky install"
+  },
+  "author": "choi",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.3"
+  }
+}
